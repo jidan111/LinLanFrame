@@ -1,0 +1,9 @@
+h5py==3.11.0
+kornia==0.7.3
+lpips==0.1.4
+matplotlib==3.7.5
+numpy==1.24.4
+Pillow==12.2.0
+torch==2.4.1
+torchvision==0.19.1
+tqdm==4.67.3

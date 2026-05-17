@@ -1,0 +1,17 @@
+{
+  "AutoEncoder": {
+    "image_shape": [
+      3,
+      256,
+      256
+    ],
+    "depth": 2,
+    "hidden_channels": 64,
+    "latent_dim": 4,
+    "attention": [],
+    "dropout": 0.1,
+    "resnet_num": 2,
+    "up_mode": "ConvTranspose2d",
+    "head_num": 8
+  }
+}

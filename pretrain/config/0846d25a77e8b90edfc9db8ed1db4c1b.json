@@ -1,0 +1,22 @@
+{
+  "Generator": {
+    "in_dim": 128,
+    "image_shape": [
+      3,
+      64,
+      64
+    ],
+    "hidden_channels": 8,
+    "depth": 4,
+    "attention": [
+      false,
+      false,
+      false,
+      false
+    ],
+    "head_num": 2,
+    "dropout": 0.1,
+    "resnet_num": 2,
+    "up_mode": "ConvTranspose2d"
+  }
+}

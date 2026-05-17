@@ -1,0 +1,17 @@
+{
+  "Unet": {
+    "in_channels": 3,
+    "hidden_channels": 16,
+    "depth": 4,
+    "attention": [
+      false,
+      false,
+      false,
+      true
+    ],
+    "head_num": 8,
+    "dropout": 0.1,
+    "resnet_num": 2,
+    "up_mode": "ConvTranspose2d"
+  }
+}
