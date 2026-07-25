@@ -1,0 +1,1 @@
+{"RRDBNet": {"in_channels": 3, "hidden_channels": 32, "up_num": 1, "grow_channels": 32, "layer_num": 23, "up_mode": "interpolate"}}

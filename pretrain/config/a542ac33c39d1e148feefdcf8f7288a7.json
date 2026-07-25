@@ -1,0 +1,56 @@
+{
+  "CLIP": {
+    "image_encoder_config": {
+      "image_shape": [
+        3,
+        224,
+        224
+      ],
+      "patch_size": 32,
+      "d_model": 768,
+      "head_nums": 12,
+      "dropout": 0.075,
+      "layer_num": 12,
+      "mlp_ratio": 2,
+      "out_dim": 512
+    },
+    "text_encoder_config": {
+      "max_seq_length": 200,
+      "vocab_size": 6370,
+      "d_model": 512,
+      "head_nums": 8,
+      "layer_num": 12,
+      "dropout": 0.075,
+      "mlp_ratio": 4,
+      "out_dim": 512
+    }
+  },
+  "image_encoder": {
+    "VIT": {
+      "image_shape": [
+        3,
+        224,
+        224
+      ],
+      "patch_size": 32,
+      "d_model": 768,
+      "head_nums": 12,
+      "dropout": 0.075,
+      "layer_num": 12,
+      "mlp_ratio": 2,
+      "out_dim": 512
+    }
+  },
+  "text_encoder": {
+    "TextEmbedTransformer": {
+      "max_seq_length": 200,
+      "vocab_size": 6370,
+      "d_model": 512,
+      "head_nums": 8,
+      "layer_num": 12,
+      "dropout": 0.075,
+      "mlp_ratio": 4,
+      "out_dim": 512
+    }
+  }
+}

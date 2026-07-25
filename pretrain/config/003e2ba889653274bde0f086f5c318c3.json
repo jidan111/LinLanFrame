@@ -1,0 +1,1 @@
+{"AutoEncoder": {"in_channels": 3, "depth": 3, "hidden_channels": 32, "latent_dim": 16, "attention": [false, false, false], "dropout": 0.1, "resnet_num": 2, "up_mode": ["ConvTranspose2d", "interpolate", "interpolate"], "head_num": 8}}
