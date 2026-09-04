@@ -1,0 +1,10 @@
+h5py==3.14.0
+huggingface_hub==1.8.0
+kornia==0.8.2
+lpips==0.1.4
+matplotlib==3.11.1
+numpy==2.5.2
+Pillow==12.3.0
+torch==2.8.0+cu128
+torchvision==0.23.0+cu128
+tqdm==4.68.4
